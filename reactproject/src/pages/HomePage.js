@@ -1,8 +1,9 @@
 import React from 'react'
+import CTASection1 from '../components/CTASection/CTASection1'
 
 const HomePage = () => {
   return (
-    <div>HomePage</div>
+   <CTASection1 />
   )
 }
 

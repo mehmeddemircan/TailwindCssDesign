@@ -1,6 +1,7 @@
 import React from 'react'
 import MainHeader from '../components/Header/MainHeader'
 import MainFooter from '../components/Footer/MainFooter'
+import SecondaryFooter from '../components/Footer/SecondaryFooter'
 
 const MainLayout = (props) => {
   return (
@@ -10,6 +11,7 @@ const MainLayout = (props) => {
         {props.children}  
         </div>
         <MainFooter />
+        <SecondaryFooter />
        
        </>
   )

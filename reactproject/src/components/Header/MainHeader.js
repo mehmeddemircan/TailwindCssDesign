@@ -23,9 +23,9 @@ import {
 import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
 
 const products = [
-  { name: 'Analytics', description: 'Get a better understanding of your traffic', href: '#', icon: ChartPieIcon },
-  { name: 'Engagement', description: 'Speak directly to your customers', href: '#', icon: CursorArrowRaysIcon },
-  { name: 'Security', description: 'Your customers’ data will be safe and secure', href: '#', icon: FingerPrintIcon },
+  { name: 'Our Team', description: 'Get a better understanding of your traffic', href: '/ourteam', icon: ChartPieIcon },
+  { name: 'Content', description: 'Speak directly to your customers', href: '/content', icon: CursorArrowRaysIcon },
+  { name: 'Image Gallery', description: 'Your customers’ data will be safe and secure', href: '/gallery', icon: FingerPrintIcon },
   { name: 'Integrations', description: 'Connect with third-party tools', href: '#', icon: SquaresPlusIcon },
   { name: 'Automations', description: 'Build strategic funnels that will convert', href: '#', icon: ArrowPathIcon },
 ]
@@ -117,11 +117,14 @@ const MainHeader = () =>  {
           <a href="/pricing" className="text-sm font-semibold leading-6 text-gray-900">
             Pricing
           </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-            Marketplace
+          <a href="/blogs" className="text-sm font-semibold leading-6 text-gray-900">
+            Blog
           </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-            Company
+          <a href="/about-us" className="text-sm font-semibold leading-6 text-gray-900">
+            About Us
+          </a>
+          <a href="/contact-us" className="text-sm font-semibold leading-6 text-gray-900">
+            ContactUs
           </a>
         </PopoverGroup>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">

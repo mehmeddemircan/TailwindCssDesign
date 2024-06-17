@@ -66,7 +66,7 @@ const MainFooter = () => {
                             </ul>
                         </div>
                         <div class="mt-10 md:mt-0">
-                            <h3 class="text-md font-semibold leading-6 text-white">Use Cases</h3>
+                            <h3 class="text-md font-semibold leading-6 text-dark">Use Cases</h3>
                             <ul role="list" class="mt-6 space-y-4">
                                 <li>
                                     <a href="/predictiveanalysis"
@@ -90,7 +90,7 @@ const MainFooter = () => {
                     </div>
                     <div class="md:grid md:grid-cols-2 md:gap-8">
                         <div>
-                            <h3 class="text-md font-semibold leading-6 text-white">Resources</h3>
+                            <h3 class="text-md font-semibold leading-6 text-dark">Resources</h3>
                             <ul role="list" class="mt-6 space-y-4">
                                 <li>
                                     <a href="/pricing"
@@ -119,7 +119,7 @@ const MainFooter = () => {
                             </ul>
                         </div>
                         <div class="mt-10 md:mt-0">
-                            <h3 class="text-md font-semibold leading-6 text-white">Company</h3>
+                            <h3 class="text-md font-semibold leading-6 text-dark">Company</h3>
                             <ul role="list" class="mt-6 space-y-4">
                                 <li>
                                     <a href="/aboutus"

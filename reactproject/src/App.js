@@ -10,6 +10,11 @@ import OurTeamPage from './pages/OurTeamPage';
 import ContentPage from './pages/ContentPage';
 import BlogDetailPage from './pages/BlogDetailPage';
 import ImageGalleryPage from './pages/ImageGalleryPage';
+
+import ResultsPage from './pages/ResultsPage';
+import AboutUsPage from './pages/AboutUsPage';
+import ListItemPage from './pages/ListItemPage';
+import UserDetailPage from './pages/UserDetailPage';
 function App() {
   return (
    <Router>
@@ -22,8 +27,11 @@ function App() {
     <Route  path='/ourteam' element={<OurTeamPage />} />
     <Route  path='/content' element={<ContentPage />} />
     <Route  path='/blog-details' element={<BlogDetailPage />} />
-    <Route  path='/about-us' element={<BlogDetailPage />} />
+    <Route  path='/about-us' element={<AboutUsPage />} />
     <Route  path='/gallery' element={<ImageGalleryPage />} />
+    <Route  path='/results' element={<ResultsPage />} />
+    <Route  path='/list-items' element={<ListItemPage />} />
+    <Route  path='/user-details' element={<UserDetailPage />} />
    </Routes>
    </Router>
   );

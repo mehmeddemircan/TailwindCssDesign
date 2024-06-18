@@ -10,6 +10,7 @@ import NewsLetter1 from '../components/NewsLetterSection/NewsLetter1'
 import HeaderSection1 from '../components/HeaderSection/HeaderSection1'
 import LogoBanner1 from '../components/LogoBanner/LogoBanner1'
 import LogoBanner2 from '../components/LogoBanner/LogoBanner2'
+import CategoryCard1 from '../components/CategoryCards/CategoryCard1'
 
 
 const HomePage = () => {
@@ -19,7 +20,7 @@ const HomePage = () => {
   
        <CTASection1 />
        <CTASection2 />
- 
+        <CategoryCard1 />
     
        <TestimonialCard1 />
        <TestimonialCard2 />

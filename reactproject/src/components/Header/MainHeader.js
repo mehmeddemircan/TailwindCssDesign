@@ -28,8 +28,8 @@ const products = [
   { name: 'Our Team', description: 'Get a better understanding of your traffic', href: '/ourteam', icon: ChartPieIcon },
   { name: 'Content', description: 'Speak directly to your customers', href: '/content', icon: CursorArrowRaysIcon },
   { name: 'Image Gallery', description: 'Your customers’ data will be safe and secure', href: '/gallery', icon: FingerPrintIcon },
-  { name: 'Integrations', description: 'Connect with third-party tools', href: '#', icon: SquaresPlusIcon },
-  { name: 'Automations', description: 'Build strategic funnels that will convert', href: '#', icon: ArrowPathIcon },
+  { name: 'Results', description: 'Connect with third-party tools', href: '/results', icon: SquaresPlusIcon },
+  { name: 'List Items', description: 'Build strategic funnels that will convert', href: '/list-items', icon: ArrowPathIcon },
 ]
 const callsToAction = [
   { name: 'Watch demo', href: '#', icon: PlayCircleIcon },

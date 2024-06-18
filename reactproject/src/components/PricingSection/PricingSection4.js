@@ -13,7 +13,7 @@ const PricingSection4 = () => {
             think
         </p>
         <div class="w-56">
-            <button onclick="toggleIt()" class="bg-gray-100 dark:bg-gray-800 shadow rounded-full flex items-center mt-10 rounded-full">
+            <button onclick="toggleIt()" class="bg-gray-100 dark:bg-gray-800 shadow  flex items-center mt-10 rounded-3xl">
                 <div class="bg-gray-100 dark:bg-gray-800 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 focus:outline-none text-base leading-none text-gray-600 dark:text-gray-200 rounded-full py-4 px-6 mr-1" id="monthly">Monthly</div>
                 <div class="bg-indigo-700 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 focus:outline-none text-base leading-none text-white rounded-full py-4 px-6" id="annually">Annually</div>
             </button>

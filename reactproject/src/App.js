@@ -15,6 +15,7 @@ import ResultsPage from './pages/ResultsPage';
 import AboutUsPage from './pages/AboutUsPage';
 import ListItemPage from './pages/ListItemPage';
 import UserDetailPage from './pages/UserDetailPage';
+import PaymentPage from './pages/PaymentPage';
 function App() {
   return (
    <Router>
@@ -32,6 +33,7 @@ function App() {
     <Route  path='/results' element={<ResultsPage />} />
     <Route  path='/list-items' element={<ListItemPage />} />
     <Route  path='/user-details' element={<UserDetailPage />} />
+    <Route  path='/pay' element={<PaymentPage />} />
    </Routes>
    </Router>
   );

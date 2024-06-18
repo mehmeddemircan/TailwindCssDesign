@@ -11,6 +11,9 @@ import HeaderSection1 from '../components/HeaderSection/HeaderSection1'
 import LogoBanner1 from '../components/LogoBanner/LogoBanner1'
 import LogoBanner2 from '../components/LogoBanner/LogoBanner2'
 import CategoryCard1 from '../components/CategoryCards/CategoryCard1'
+import CTASection3 from '../components/CTASection/CTASection3'
+import CTASection4 from '../components/CTASection/CTASection4'
+import CTASection5 from '../components/CTASection/CTASection5'
 
 
 const HomePage = () => {
@@ -20,6 +23,9 @@ const HomePage = () => {
   
        <CTASection1 />
        <CTASection2 />
+       <CTASection3 />
+       <CTASection4 />
+       <CTASection5 />
         <CategoryCard1 />
     
        <TestimonialCard1 />

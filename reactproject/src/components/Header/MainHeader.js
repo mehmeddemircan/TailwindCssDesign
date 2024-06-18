@@ -30,6 +30,7 @@ const products = [
   { name: 'Image Gallery', description: 'Your customers’ data will be safe and secure', href: '/gallery', icon: FingerPrintIcon },
   { name: 'Results', description: 'Connect with third-party tools', href: '/results', icon: SquaresPlusIcon },
   { name: 'List Items', description: 'Build strategic funnels that will convert', href: '/list-items', icon: ArrowPathIcon },
+  { name: 'FAQ', description: 'Build strategic funnels that will convert', href: '/faq', icon: ArrowPathIcon },
 ]
 const callsToAction = [
   { name: 'Watch demo', href: '#', icon: PlayCircleIcon },

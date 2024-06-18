@@ -3,6 +3,7 @@ import React, { Fragment } from 'react'
 const MainFooter = () => {
   return (
     <Fragment>
+        
         <footer class="bg-white">
     <div class="container mx-auto p-0 md:p-8 xl:px-0">
         <div class="mx-auto max-w-7xl px-6 pb-10 pt-16">

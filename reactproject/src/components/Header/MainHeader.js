@@ -21,6 +21,8 @@ import {
   XMarkIcon,
 } from '@heroicons/react/24/outline'
 import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
+import AdsBannerSection1 from '../AdsBannerSection/AdsBannerSection1'
+import CookieConsentBanner1 from '../CookieConsentBanner/CookieConsentBanner1'
 
 const products = [
   { name: 'Our Team', description: 'Get a better understanding of your traffic', href: '/ourteam', icon: ChartPieIcon },
@@ -42,6 +44,7 @@ const MainHeader = () =>  {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
+    <Fragment>
     <header className="bg-white">
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
@@ -214,6 +217,7 @@ const MainHeader = () =>  {
         </DialogPanel>
       </Dialog>
     </header>
+    </Fragment>
   )
 }
 

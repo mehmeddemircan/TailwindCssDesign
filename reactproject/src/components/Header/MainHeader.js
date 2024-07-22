@@ -21,8 +21,6 @@ import {
   XMarkIcon,
 } from '@heroicons/react/24/outline'
 import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
-import AdsBannerSection1 from '../AdsBannerSection/AdsBannerSection1'
-import CookieConsentBanner1 from '../CookieConsentBanner/CookieConsentBanner1'
 
 const products = [
   { name: 'Our Team', description: 'Get a better understanding of your traffic', href: '/ourteam', icon: ChartPieIcon },
